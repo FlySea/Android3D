@@ -8,5 +8,5 @@ public interface MeshDrawable {
 
     //取出VertInfo 供Render用 (用于确定向GPU发送哪些顶点属性
     //由于里面包含了所有要绘制的信息 (不算矩阵) 所以省去了 drawMesh
-    public MeshInfo GetMeshInfo();
+    public MeshInfo getMeshInfo();
 }
